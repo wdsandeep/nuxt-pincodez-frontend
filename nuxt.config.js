@@ -24,8 +24,8 @@ export default {
   },
   generate: {
     exclude: [
-      // /^\/subdistricts/,
-      // /^\/pincode/
+      /^\/subdistricts/,
+      /^\/pincode/
     ],
     interval: 2000
   },
